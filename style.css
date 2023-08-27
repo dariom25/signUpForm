@@ -1,0 +1,12 @@
+:root{
+    
+}
+
+body{
+    display: flex;
+    margin: 0;
+}
+
+.image-container>img{
+    height: 100vh;
+}
