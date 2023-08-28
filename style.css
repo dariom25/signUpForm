@@ -1,4 +1,7 @@
-
+:root{
+    font-family: "Roboto", sans-serif;
+    --grey: #f1f1f1
+}
 
 body{
     display: flex;
@@ -25,9 +28,10 @@ img{
 
 .form-container{
     flex: 3;
-    padding-left: 3rem;
+
     display: flex;
     flex-direction: column;
+    gap: 2rem;
 }
 
 .action-call{
@@ -36,10 +40,34 @@ img{
     justify-content: flex-end;
     gap: 1rem;
     height: 20vh;
+    background-color: var(--grey);
+    padding-left: 3rem;
 }
 .action-call>p{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     font-size: 2rem;
-    font-family: "Roboto", sans-serif;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 3rem;
+}
+
+.name, .contact-data, .password-data{
+    display: flex;
+    gap: 3rem;
+
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-field{
+    padding-left: 3rem;
+    background-color: var(--grey);
 }
