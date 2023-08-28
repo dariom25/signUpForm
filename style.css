@@ -40,5 +40,6 @@ img{
 .action-call>p{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
 }
