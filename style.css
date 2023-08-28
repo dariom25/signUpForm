@@ -1,12 +1,29 @@
-:root{
-    
-}
+
 
 body{
     display: flex;
     margin: 0;
 }
 
-.image-container>img{
-    height: 100vh;
+.image-container{
+    position: relative;
+
+    flex: 1;
+}
+
+img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    flex: 1;
+}
+
+.logo{
+    background-color: black;
+    height: 10rem;
+    opacity: 0.6;
+}
+
+.form-container{
+    flex: 2;
 }
