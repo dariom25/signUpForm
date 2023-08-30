@@ -86,11 +86,46 @@ input{
     width: 16rem;
 }
 
+#email:valid{
+    border-color: green;
+    border-width: 3px;
+    outline: none;
+}
+
+#email:focus:invalid{
+    outline: none;
+    border-color: red;
+    border-width: 3px;
+}
+
+#first-name:valid{
+    border-color: green;
+    border-width: 3px;
+    outline: none;
+}
+
+#last-name:valid{
+    border-color: green;
+    border-width: 3px;
+    outline: none;
+}
+
+#phone-number:valid{
+    border-color: green;
+    border-width: 3px;
+    outline: none;
+}
+
+#phone-number:focus:invalid{
+    border-color: red;
+    border-width: 3px;
+    outline: none;
+}
+
 .login-field{
     padding-top: 2rem;
     padding-left: 3rem;
     padding-right: 5rem;
-
 }
 
 .button{
