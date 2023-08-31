@@ -137,4 +137,15 @@ input{
     font-size: 1vw;
     font-weight: 600;
     color: white;
+    cursor: pointer;
+}
+
+.button:active{
+    background-color: #2b4d0d;
+    border-style: solid;
+    border-color: black;
+}
+
+.login-field>p{
+    font-size: 1vw;
 }
